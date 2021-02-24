@@ -1,6 +1,6 @@
 # Federated Multi-armed Bandits with Personalization
 
-This is the supplementary code for the submission "Federated Multi-armed Bandits with Personalization" to AISTATS 2021. The details of codes are specified as following and the results can be get by directly running the notebook "PF-UCB.ipynb". The obtained data will be stored in folders: scores, scores_improved, and socres_movielens.
+This is the supplementary code for the AISTATS 2021 proceeding "Federated Multi-armed Bandits with Personalization". The details of codes are specified as following and the results can be get by directly running the notebook "PF-UCB.ipynb". The obtained data will be stored in folders: scores, scores_improved, and socres_movielens.
 
 ## Requirement
 
