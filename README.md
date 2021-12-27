@@ -18,11 +18,17 @@ The synthetic dataset used in Fig. (1) is contained in the notebook. The origina
 
 ## How to use
 
-The current project environemnt is based on Poetry. After cloning this repository run the next commands in the cloned root folder for getting up and running your project _Jupyter Notebook_:
+First, install _Poetry_ if you do not have it yet by using the next command:
 
 ```bash
-poetry install
-poetry run jupyter notebook
+python3 -m pip install poetry
+```
+
+The current project environment is based on Poetry. After cloning this repository run the next commands in the cloned root folder for getting up and running your project _Jupyter Notebook_:
+
+```bash
+python3 -m poetry install
+python3 -m poetry run jupyter notebook
 ```
 
 Then, a web browser should pop-up with the project's _Jupyter Notebook_, where you could run cells sequentially by pressing Ctrl+Enter.
