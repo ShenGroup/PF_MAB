@@ -16,3 +16,13 @@ The PF-UCB algorithm is implemented in files "bandits.py", "client.py" and "serv
 
 The synthetic dataset used in Fig. (1) is contained in the notebook. The original MovieLens dataset can be downloaded from [here(https://grouplens.org/datasets/hetrec-2011/)] and the preprocessing steps are specified in the paper. The processed MovieLens dataset is contained in the file "movielens_norm_10_40.npy". The synthetic dataset used in Fig. (4) is contained in file "means.npy".
 
+## How to use
+
+The current project environemnt is based on Poetry. After cloning this repository run the next commands in the cloned root folder for getting up and running your project _Jupyter Notebook_:
+
+```bash
+poetry install
+poetry run jupyter notebook
+```
+
+Then, a web browser should pop-up with the project's _Jupyter Notebook_, where you could run cells sequentially by pressing Ctrl+Enter.
